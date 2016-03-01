@@ -26,7 +26,7 @@ namespace mapapi.Controllers
         [HttpGet("{id}/{value}")]
         public string Get(int id, string @value)
         {
-            return String.Format("Param1: {0}, and Param2: {1}", id, @value);
+            return String.Format("Param-1: {0}, and Param-2: {1}", id, @value);
         }
 
         // POST api/values

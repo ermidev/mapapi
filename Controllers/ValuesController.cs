@@ -20,7 +20,7 @@ namespace mapapi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return String.Format("value: {0}", id);
         }
 
         // POST api/values
